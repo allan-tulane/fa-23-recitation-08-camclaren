@@ -12,7 +12,7 @@ Place all written answers from `recitation-08.md` here for easier grading.
 
 - **1b)**
 
-The code for this function is an implementation of Dijkstra's algorithm, which has a work and span of O(|E|log|E|)
+The code for this function is an implementation of Dijkstra's algorithm (it initializes the frontier and then visits each node until the frontier is empty), which has a work and span of O(|E|log|E|)
 
 - **2b)**
 

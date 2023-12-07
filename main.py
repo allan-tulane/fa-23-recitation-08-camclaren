@@ -72,6 +72,7 @@ def get_path(parents, destination):
     ###TODO
     # checks if the destination node is a parent node
     if destination in parents:
+      # if yes, recursively calls the function to get the parent of the destination
       return get_path(parents, parents[destination]) + parents[destination]
     else:
     # if not, returns empty string since you're already at the node
